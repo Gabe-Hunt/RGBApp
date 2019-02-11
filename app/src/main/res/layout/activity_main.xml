@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/outputLabel"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/textviewHeight"
+        android:text="@string/defaultText"
+        android:fontFamily="@string/fontFamily"
+        android:textSize="@dimen/fontSize"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/redLabel"
+        android:textSize="@dimen/fontSize"
+        android:gravity="center"
+        android:text="@string/redLabel"/>
+    <SeekBar
+        android:id="@+id/redSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="@string/maxRange"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/greenLabel"
+        android:textSize="@dimen/fontSize"
+        android:gravity="center"
+        android:text="@string/greenLabel"/>
+    <SeekBar
+        android:id="@+id/greenSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="@string/maxRange"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/blueLabel"
+        android:textSize="@dimen/fontSize"
+        android:gravity="center"
+        android:text="@string/blueLabel"/>
+    <SeekBar
+        android:id="@+id/blueSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="@string/maxRange"/>
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RGB App</string>
+    <string name="defaultText">Adjust sliders to change color.</string>
+    <string name="fontFamily">monospace</string>
+    <string name="maxRange">255</string>
+    <string name="redLabel">R</string>
+    <string name="greenLabel">G</string>
+    <string name="blueLabel">B</string>
+</resources>
